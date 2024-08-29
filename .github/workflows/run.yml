@@ -1,11 +1,11 @@
-name: 'CFcdn-IP-Domains/20分钟/1次'
+name: 'CFcdn-IP-Domains/15分钟/1次'
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
